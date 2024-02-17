@@ -119,7 +119,7 @@ alias lsa='lsd -lah'
 alias cls="clear"
 # git
 alias addup='git add -u'
-alias addall='git add .'
+alias addall='git add . && git status'
 alias branch='git branch'
 alias checkout='git checkout'
 alias clone='git clone'
@@ -136,7 +136,8 @@ alias root='cd /'
 alias ..='cd ..'
 alias ...='cd ..; cd ..'
 alias ....='cd ..; cd ..; cd ..'
-
+#bat
+alias cat="bat -p"
 export PATH=/Users/kacpermachel/custom_command:$PATH
 export PATH="$HOME/.local/bin:$PATH"
 
